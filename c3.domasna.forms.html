@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    form{
+        background-color: #211e1e;
+        color: whitesmoke;
+        border-radius: 20px;
+        height: auto;
+        width: 500px;
+    }
+
+    #wrapper{
+        margin-top: -50px;
+        float: center;
+    }
+
+    input{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="wapper">
+    <div id="inputs">
+        <div>
+            <center><form name="input" action="#" method="POST">
+                <h1>Нарачај Пица</h1>
+                Име: <input type="text" name="Ime" placeholder="Внеси Име"><br>
+                Презиме: <input type="text" name="Prezime" placeholder="Внеси Презиме"><br>
+                Адреса: <input type="text" name="Adresa" placeholder="Улица и бр."><br>
+                Телефон: <input type="number" name="Telefon" placeholder="Телефонски број">
+                <br>
+                <p>Каква Пица? (Селектирај и нарачај!)</p>
+                <label for="">
+                    <input type="radio" name="golemina" value="pica"/>
+                    Мала
+                </label>
+                <label for="">
+                    <input type="radio" name="golemina" value="pica"/>
+                    Средна
+                </label>
+                <label for="">
+                    <input type="radio" name="golemina" value="pica"/>
+                    Голема
+                </label>
+                <br>
+                <h4>Додатоци</h4>
+                <input type="checkbox" checked>Сирење
+                <input type="checkbox" checked>Маслинки
+                <input type="checkbox" checked>Феферони
+                <p>Коментар: <br> </p>
+                <textarea></textarea>
+                <p></p>
+                <input type="submit" value="Потврди" href="#">
+                
+
+            </form>
+        </div>
+    </div>  
+    </div>   
+
+</body>
+</html>
