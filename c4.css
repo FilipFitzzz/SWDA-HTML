@@ -1,0 +1,52 @@
+селектор {
+    property: value;
+    ...
+    property: valye;
+}
+
+body{
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+/*span{
+    text-decoration: underline;
+    color: black;
+}
+*/
+
+.yellow{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.black{
+    color: black;
+}
+
+#paragraphh{
+    font-style: italic;
+}
+
+.iminja{
+    color: black;
+    list-style: none;
+    width: 200px;
+}
+
+.iminja li {
+    border-bottom: 1px solid white;
+}
+
+li.yellow{
+    color: coral;
+}
+
+.iminja li .yellow{
+    color:#82b1ff;
+}
+
+

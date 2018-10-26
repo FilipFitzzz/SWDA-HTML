@@ -1,0 +1,23 @@
+table{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+
+
+.naslov{
+    font-weight: bold;
+}
+
+td.sokstil{
+    font-style: italic;
+}
+
+tr.bojabe{
+    background-color: gray;
+}
