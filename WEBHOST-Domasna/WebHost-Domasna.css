@@ -127,13 +127,14 @@ a:hover {
 .container-del-2 .kutija2 {
     width: 80%;
     height: 200px;
+    background-image: url(sliki/pattern-02.svg);
     background-color: #22334f;
     position: absolute;
     margin-top: 600px;
     margin-left: 192px;
 }
 
-/* .kutija2 img {
+ .kutija2 img {
     width: 150px;
     height: 150px;
     background-color: transparent;
@@ -141,12 +142,12 @@ a:hover {
     background-position: center center;
     outline: none;
     cursor: pointer;
-} */
+} 
 
 .kutija3 {
     width: 100%;
     height: 120px;
-    background-color: #5ca3f9;
+    /* background-color: #5ca3f9; */
     position: absolute;
     margin-top: 40px;
     display: flex;
@@ -156,8 +157,11 @@ a:hover {
 .kutija-row {
     width: 100%;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 160px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .domain-info h2 {
@@ -167,6 +171,20 @@ a:hover {
     color: white;
     margin-bottom: 10px;
 }
+
+.domain-price span {
+    color: #2f8bfc;
+    border-right: 10px;
+    
+}
+
+/* .search-host {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    border-left: 500px;
+} */
 
 
 
