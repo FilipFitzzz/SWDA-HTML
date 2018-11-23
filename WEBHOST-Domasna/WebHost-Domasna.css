@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.site-header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+a:hover {
+    color: #2f8bfc;
+}
+
+.kopce-akaunt {
+    width: 150px;
+    height: 60px;
+    background-color: #2f8bfc;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.kopce-akaunt:hover {
+    background-color: #5ca3f9;
+}
+
+.site-header ul {
+    display: flex;
+    margin-left: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-logo {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: transparent;
+    background-image: url(sliki/setra-logo-02.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    outline: none;
+    cursor: pointer;
+}
+
+.main-del{
+    background-color: #2f8bfc;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.main-del .main-slika {
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+    position: absolute;
+    margin: 30px 0 0 980px;
+    
+    
+}
+
+.main-del-container .tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 350px;    
+    margin-top: 250px;   
+}
+
+.main-del-container .tekst .levo {
+    position: relative;
+}
+
+.tekst {
+    color: white;     
+}
+
+.tekst h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+
+.tekst h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;   
+}
+
+.tekst p {
+    width: 30%;
+}
+
+.container-del-2 .kutija2 {
+    width: 80%;
+    height: 200px;
+    background-color: #22334f;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 192px;
+}
+
+/* .kutija2 img {
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-position: center center;
+    outline: none;
+    cursor: pointer;
+} */
+
+.kutija3 {
+    width: 100%;
+    height: 120px;
+    background-color: #5ca3f9;
+    position: absolute;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.kutija-row {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.domain-info h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+
+
