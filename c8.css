@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-image: url(c8vezba-sliki/BG.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-box {
+    width: 770px;
+    height: 490px;
+    background-color: #20211f;
+    border-radius: 30px;
+    margin: 500px;
+}
+
+.sign-up-main {
+    width: 770px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+    
+    
+}
+
+.sign-up-main .sign-up {
+    font-size: 24px;
+    color: #fff;
+    
+}
+
+.left-box {
+    margin: 34px 0 0 34px;
+
+
+}
+
+.left-box input {
+    width: 290px;
+    height: 48px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px
+    
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px;
+  }
+
+
+
