@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1d2c3f;
+}
+
+/* Linguine Box */
+
+.main-box {
+    width: 580px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+}
+
+.main-box .porcija-img {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+
+.content .naslov {
+    font-size: 24px;
+    color: #4e4f53;
+    padding: 40px 0px 0px 38px;
+}
+
+.content .naslov2 {
+    font-size: 24px;
+    color: #4e4f53;
+    padding: 3px 0px 0px 38px;
+}
+
+.star-rate {
+    display: flex;
+    align-items: center;
+}
+
+.star-rate svg {
+    width: 21px;
+    height: 20px;
+}
+
+.star-rate .stars {
+    margin: 20px 0px 0px 40px;
+}
+
+.star-rate .stars .dzvezdata:hover {
+    fill: #ffc953;
+    cursor: pointer;
+}
+
+.star-rate .rate {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 13px;
+    color: #bfbfbf;
+}
+
+.subheader {
+    font-size: 12px;
+    color: #8bc058;
+    margin: 20px 0px 0px 43px;
+}
+
+.text-numbers {
+    display: flex;
+    align-items: center;
+}
+
+.timer-number {
+    margin-top: 20px;
+    margin-left: 47px;
+    font-size: 16px;
+    color: #7f8187;
+    font-weight: bold;
+    
+}
+
+.timer-text {
+    margin-top: 0px;
+    margin-left: 42px;
+    color: #7f8187;
+    font-size: 14px;
+}
+
+.timer-number1 {
+    margin-top: 20px;
+    margin-left: 47px;
+    font-size: 16px;
+    color: #7f8187;
+    font-weight: bold;
+    
+}
+
+.timer-text1 {
+    margin-top: 0px;
+    margin-left: 33px;
+    color: #7f8187;
+    font-size: 14px;
+}
+
+.main-button {
+    width: 94px;
+    height: 32px;
+    background-color: #8bc058;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin: 26px 0px 0px 40px;
+
+
+}
+
+
+width: 103px;
+    height: 32;
+    border-radius: px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #8bc058;
+
