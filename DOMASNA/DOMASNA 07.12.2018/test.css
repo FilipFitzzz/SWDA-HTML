@@ -1,0 +1,45 @@
+.calendar-box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 500px;
+}
+
+.calendar {
+    width: 430px;
+    height: auto;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.calendar .date {
+    padding: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+    color: #5f1a2b;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.calendar .date div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    
+}
+
+.calendar .date div.day {
+    font-weight: bold;
+    color: black;
+}
+
+.calendar .date div.number-gray {
+    color: #b6b6b6;
+}
