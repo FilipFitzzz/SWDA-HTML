@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-image: url(c8vezba-sliki/BG.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-box {
+    width: 369px;
+    height: 525px;
+    background-color: #20211f;
+    border-radius: 20px;
+    margin: 200px 0 0 200px;
+    box-shadow: 8px 8px 50px 1px #333333;
+}
+
+.part-one {
+    width: 369px;
+    height: 372px;
+}
+
+.part-two {
+    width: 369px;
+    height: 153px;
+}
+
+.bc-img img {
+    width: 369px;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+}
+
+.transp-ele {
+    position: absolute;
+    top: 530px;
+    width: 369px;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.price-del {
+    width: 109px;
+    height: 46px;
+    background-color: #4db2ac;
+    position: absolute;
+    top: 238px;
+    left: 460px;
+    border-radius: 25px 0 0 25px;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.transp-ele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .shop {
+    width: 35px;
+    height: 17px;
+    margin-left: 235px;
+}
+
+.icons .star {
+    width: 35px;
+    height: 17px;
+}
+
+.icons .menu {
+    width: 25px;
+    height: 17px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 36px 0 0 40px;
+}
+
+.text .header {
+    font-size: 30px;
+    color: #edec93;
+}
+
+.text .paragraph {
+    margin-top: 17px;
+    font-size: 15px;
+    color: #fff;
+}

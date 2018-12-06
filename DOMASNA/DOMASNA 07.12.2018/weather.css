@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-image: url(c8vezba-sliki/BG.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-box {
+    width: 366px;
+    height: 526px;
+    background-color: #242424;
+    border-radius: 20px;
+    margin: 200px 0 0 200px;
+    box-shadow: 8px 8px 50px 1px #333333;
+}
+
+.main-box .box-1 {
+    width: 100%;
+    height: 318px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+.first-info {
+    display: flex;
+    justify-content: center;
+}
+
+.box-1 .bc-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(c8vezba-sliki/weather-sliki/Phote.png);
+}
+
+.box-1 .celcius-text {
+    position: absolute;
+    font-size: 160px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 70px
+}
+
+.box-1 .celcius-circle {
+    position: absolute;
+    font-size: 100px;
+    font-weight: normal;
+    color: #fff;
+    margin: 85px 0 0 110px;
+    
+}
+
+.information {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 235px 0 0 110px;
+}
+
+.icon-text {
+    color: white;
+    font-size: 21px;
+
+}
+
+.box-2 {
+    position: relative;
+}
+
+.rain-icon {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0px;
+}
+
+.rain-icon.img {
+
+}
+
+.day-text {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.border-line {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-left: 1px solid white;
+    margin-left: -33px;
+    margin-top: 3px;
+}  
+
+.date-text {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #438f8a;
+    text-transform: uppercase;
+}
+
+.rain-icon .celcius-text {
+    padding-left: 120px;
+    font-size: 17px;
+    color: #edec93;
+}
+
+/* del dva */
+
+.rain-icon1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0px;
+}
+
+.rain-icon.img {
+
+}
+
+.day-text1 {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.border-line1 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-left: 1px solid white;
+    margin-left: -10px;
+}  
+
+.date-text1 {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #438f8a;
+    text-transform: uppercase;
+}
+
+.rain-icon1 .celcius-text1 {
+    padding-left: 94px;
+    font-size: 17px;
+    color: #edec93;
+}
+
+/* DEL 3 */
+
+.rain-icon2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0px;
+}
+
+.rain-icon.img2 {
+
+}
+
+.day-text2 {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.border-line2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-left: 1px solid white;
+    margin-left: -23px;
+}  
+
+.date-text2 {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #438f8a;
+    text-transform: uppercase;
+}
+
+.rain-icon2 .celcius-text2 {
+    padding-left: 110px;
+    font-size: 17px;
+    color: #edec93;
+}
+
+
+
