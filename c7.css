@@ -136,3 +136,20 @@ body {
     background-color: #a7a7a7;
 
 }
+
+.component-separator {
+    border: none;
+    border-top: white dashed 1px;
+    margin: 50px 0;
+}
+
+.calendar {
+    width: 580px;
+    height: 478px;
+    background-color: #1a1d28;
+    border-radius: 12px;
+    display: flex;
+    overflow: hidden; /* за се што излегува надвор од димензиите на боксо да исчезни */
+
+}
+

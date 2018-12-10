@@ -46,10 +46,15 @@ body {
 .star-rate svg {
     width: 21px;
     height: 20px;
+
 }
 
 .star-rate .stars {
     margin: 20px 0px 0px 40px;
+}
+
+.star-rate .stars .dzvezdata {
+    background-color: #4e4f53;
 }
 
 .star-rate .stars .dzvezdata:hover {
@@ -123,16 +128,8 @@ body {
 
 }
 
+.main-button:hover {
+    background-color: #a0dd67;
+}
 
-width: 103px;
-    height: 32;
-    border-radius: px;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    background-color: #8bc058;
 
