@@ -61,3 +61,13 @@ var colors = ["red", "green", "blue"];
         console.log(colors[i]);
     }
 
+
+
+
+    for (var i = 0, result = ''; i < 5; i++) {
+        result += '|__|';
+        for (var b = 0; b < 2; b++) {
+            result += '  ';
+        }
+        console.log(result);
+    }
