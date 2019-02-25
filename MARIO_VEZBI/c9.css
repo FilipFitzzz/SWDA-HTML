@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+}
+
+.scaled-item {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    transition: all 0.5 ease-in-out;
+}
