@@ -66,6 +66,7 @@ body {
     width: 100%;
     height: 567px;
     background: #2D9CCA;
+    background-image: url('../pic/O9VSKA1-01.png');
 }
 .about-wrapper {
     width: 1400px;
@@ -126,3 +127,79 @@ body {
     text-align: center;
 }
 
+.sections-nav {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-design,
+.section-development,
+.section-illustration {
+    width: 270px;
+    height: 270px;
+    background-color: #2D9CCA;
+    border-radius: 150px;
+    margin: 40px 0 0 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .2);
+    
+}
+
+.section-design {
+    margin-left: 5px;
+}
+
+.section-illustration {
+    margin-right: 5px;
+}
+
+.design-icon{
+    margin: 59.5px;
+}
+
+.development-icon {
+    margin: 59.5px;
+}
+
+.illustrator-icon {
+    margin: 59.5px;
+}
+
+.skills-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.designer-text {
+    width: 282px;
+    text-align: center;
+}
+
+.designer-text h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #25274D;
+    margin: 30px 0 25px 0;
+}
+
+.designer-text .opis-text {
+    font-size: 18px;
+    color: #2D9CCA;
+    margin: 0 0 35px 0;
+}
+
+.designer-text h4 {
+    font-size: 22px;
+    color: #25274D;
+    margin: 0 0 23px 0;
+}
+
+.designer-text .opis-text2 {
+    font-size: 20px;
+    color: #2D9CCA;
+    margin: 0 0 23px 0;
+    line-height: 40px;
+}
+
+
+ 
