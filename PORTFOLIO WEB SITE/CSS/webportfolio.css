@@ -69,7 +69,7 @@ body {
     background-image: url('../pic/O9VSKA1-01.png');
 }
 .about-wrapper {
-    width: 1400px;
+    width: 1200px;
     height: 300px;
     /* background: rgb(0, 106, 192); */
     margin: 0 auto;
@@ -128,7 +128,7 @@ body {
 }
 
 .sections-nav {
-    width: 1400px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
 }
