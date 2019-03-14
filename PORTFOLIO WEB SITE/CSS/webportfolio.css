@@ -64,14 +64,11 @@ body {
 
 .about {
     width: 100%;
-    height: 567px;
-    background: #2D9CCA;
     background-image: url('../pic/O9VSKA1-01.png');
+    background-repeat: repeat-x;
 }
 .about-wrapper {
     width: 1200px;
-    height: 300px;
-    /* background: rgb(0, 106, 192); */
     margin: 0 auto;
 }
 
@@ -174,7 +171,9 @@ body {
     width: 282px;
     text-align: center;
 }
-
+.nova-sirina {
+    width: 430px;
+}
 .designer-text h3 {
     font-size: 45px;
     font-weight: bold;
@@ -200,6 +199,95 @@ body {
     margin: 0 0 23px 0;
     line-height: 40px;
 }
+
+/* .border-line1 {
+    width: 100%;
+    height: 5px;
+    background-color: black
+} */
+
+.border-line1 {
+    width: 100%;
+    height: 5px;
+    background-color: #F3F3F3;
+    margin: 60px 0 0 0;
+}
+
+.my-recent-work {
+    width: 100%;
+    height: 535px;
+    /* background-color: #2D9CCA; */
+    margin: 88px 0 0 0;
+    background-image: url('../pic/O9VSKA1-01.png');
+    background-repeat: repeat-x;
+}
+
+.my-recent-work h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 66px 0 34px 0;
+    color: #fff;
+}
+
+.my-recent-work p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.my-recent-work span {
+    font-size: 24px;
+    color: #25274D;
+}
+
+.recentwork-wrapper {
+    width: 1210px;
+    height: auto;
+    background-color: red;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.project1 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    
+}
+
+.project2 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .4);
+}
+
+.pro1-img {
+    width: 557px;
+    height: 367px;
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.pro1-text {
+    font-size: 34px;
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    color: #474866;
+}
+
+
+
+
 
 
  
