@@ -13,7 +13,6 @@ body {
     width: 1400px;
     height: auto;
     margin: 0 auto;
-    background: whitesmoke;
 }
 
 .site-header {
@@ -40,10 +39,12 @@ body {
 .nav-list ul li {
     float: left;
     padding-left: 77px;
+    font-weight: bold;
 }
 
 .nav-list ul li a {
     text-decoration: none;
+    color: #25274D;
 
 }
 
@@ -83,7 +84,7 @@ body {
 
 .paragraph-1 {
     font-size: 24px;
-    color: #474866;
+    color: #25274D;
     margin: 33px 0 0 0;
     text-align: center;
 }
@@ -241,10 +242,9 @@ body {
     color: #25274D;
 }
 
-.recentwork-wrapper {
+.recentwork-wrapper .first-line {
     width: 1210px;
     height: auto;
-    background-color: red;
     margin: 0 auto; 
     display: flex;
     justify-content: space-between;
@@ -257,7 +257,7 @@ body {
     background-color: #F3F3F3;
     margin: -268px 0 0 0;
     border-radius: 15px;
-    
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .4);
 }
 
 .project2 {
@@ -283,6 +283,34 @@ body {
     margin: 30px 0 0 0;
     font-weight: bold;
     color: #474866;
+}
+
+.recentwork-wrapper .second-line {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 290px;
+    
+}
+
+.project3 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .4);
+}
+
+.project4 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .4);
 }
 
 
