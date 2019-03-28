@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+/* навигација бар START */
+
+.nav-box {
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .1);  
+}
+
+.test {
+    width: 1400px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul li {
+    float: left;
+    padding-left: 77px;
+    font-weight: bold;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: #25274D;
+}
+
+.logo-pic {
+    width: 75px;
+    height: 75px;
+    border: none;
+    background-color: transparent;
+    background-size: cover;
+    cursor: pointer;
+    float: left;
+}
+
+.nav-box nav {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* навигација бар END */
+
+/* прва секција, текст, аватар, илустрација START */
+
+.first-header {
+    font-size: 55px;
+    font-weight: bold;
+    color: #474866;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.paragraph-1 {
+    font-size: 22px;
+    color: #25274D;
+    margin: 33px 0 0 0;
+    text-align: center;
+}
+
+.avatar-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.pc-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+/* прва секција, текст, аватар, илустрација END */
+
+/* Секција About me START  */
+
+.about {
+    width: 100%;
+    background-image: url('../pic/155.jpg');
+    background-repeat: repeat-x; 
+}
+
+.about-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-info {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 75px 0 0 0;
+}
+
+.for-text {
+    width: 917px;
+    height: 225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.for-text p {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.sections-icons {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-design,
+.section-development,
+.section-illustration {
+    width: 270px;
+    height: 270px;
+    background-color: #2D9CCA;
+    border-radius: 150px;
+    margin: 20px 0 0 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .2);
+}
+
+.design-icon,
+.development-icon,
+.illustrator-icon {
+    margin: 85px;
+}
+
+/* Секција About me END */
+
+/* <!-- секција за мене, скилови --> */
+
+.skills-text {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.designer-text {
+    width: 282px;
+    text-align: center;
+}
+.nova-sirina {
+    width: 430px;
+}
+.designer-text h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #25274D;
+    margin: 30px 0 25px 0;
+}
+
+.designer-text .opis-text {
+    font-size: 18px;
+    color: #2D9CCA;
+    margin: 0 0 35px 0;
+}
+
+.designer-text h4 {
+    font-size: 22px;
+    color: #25274D;
+    margin: 0 0 23px 0;
+}
+
+.designer-text .opis-text2 {
+    font-size: 20px;
+    color: #2D9CCA;
+    margin: 0 0 23px 0;
+    line-height: 40px;
+}
+
+/* <!-- секција за мене, скилови --> */
+
+/* <!-- секција my recent work START --> */
+
+.my-recent-work {
+    width: 100%;
+    height: 535px;
+    margin: 80px 0 0 0;
+    background-image: url('../pic/154.jpg');
+    background-repeat: repeat-x;
+}
+
+.my-recent-work h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 66px 0 34px 0;
+    color: #fff;
+}
+
+.my-recent-work p {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.my-recent-work span {
+    font-size: 24px;
+    color: #25274D;
+}
+
+.recentwork-wrapper .first-line {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.project1 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.project2 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.pro1-img {
+    width: 557px;
+    height: 367px;
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.pro1-text {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    color: #25274D;
+}
+
+.recentwork-wrapper .second-line {
+    width: 1210px;
+    height: auto;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 290px;
+}
+
+.project3 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.project4 {
+    width: 595px;
+    height: 529px;
+    background-color: #F3F3F3;
+    margin: -268px 0 0 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+/* <!-- секција my recent work END --> */
+.call-to-dribbble {
+    width: 100%;
+    height: 200px;
+}
+.call-to-dribbble button {
+    width: 269.66px;
+    height: 56.13px;
+    background-color: white;
+    border: 3px solid #2D9CCA;
+    border-radius: 50px;
+    color: #25274D;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    left: 44.4%;
+    margin: 90px 0 0 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* <!-- Секција компании и логоа START --> */
+
+.section-companies {
+    width: 100%;
+    height: 438px;
+    background-color: rgb(228, 228, 228);
+    margin: 40px 0 0 0;
+    float: left;
+}
+
+.companies-text {
+    width: 832px;
+    height: 110px;
+    font-size: 45px;
+    color: #25274D;
+    text-align: center;
+    margin: 80px auto;
+    display: block;
+}
+
+.companies-logos {
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+}
+
+/* <!-- Секција компании и логоа END --> */
+
+.my-illustrations {
+    width: 100%;
+    height: 525px;
+    margin: 80px 0 0 0;
+    background-image: url('../pic/154.jpg');
+    background-repeat: repeat-x;
+    float: left;
+}
+
+.my-illustrations h2 {
+    font-size: 45px;
+    color: #F3F3F3;
+    text-align: center;
+    margin: 80px  0 0 0;
+}
+
+.my-illustrations p {
+    width: 917px;
+    height: 116px;
+    font-size: 24px;
+    color: #F3F3F3;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
