@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../images/7063.svg");
+}
+
+.nav-section {
+    width: 1640px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.semos-logo {
+float: left;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-box {
+    width: 100%;
+    height: 100px;
+}
+
+.nav-bar li {
+    float: left;
+
+}
+
+.nav-bar .for-aca-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #40223E;
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+
+.nav-bar .for-aca-text {
+    text-decoration: none;
+}
+
+.nav-bar .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px
+}
+
+.nav-bar .icon:first-of-type {
+    margin-left: 30px
+}
+
+.nav-bar .facebook {
+    background-image: url("../images/facebook-logo.svg");
+}
+
+.nav-bar .instagram {
+    background-image: url("../images/instagram-social-network-logo-of-photo-camera.svg");
+}
+
+.nav-bar .linkedin {
+    background-image: url("../images/linkedin-logo.svg");
+}
+
