@@ -53,6 +53,11 @@
     margin: 0 40px 0 0;
 }
 
+.user-icons img {
+    width: 25px;
+    height: 25px;
+}
+
 .user-icons li:last-child {
     margin: 0;
 }
@@ -92,6 +97,8 @@
 
 /* под-навигација END */
 
+/* инфо секција START */
+
 .first-info h1 {
     font-size: 35px;
     color: #222222;
@@ -120,4 +127,110 @@
     text-align: center;
     padding: 50px 0 0 0;
     line-height: 48px;
+}
+
+/* инфо секција END */
+
+.product-present {
+    width: 1620px;
+    height: 988px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.container {
+    position: relative;
+  }
+
+.box-orange {        
+    background:#F5F5F5;
+    height: 938.27px;
+    width: 713.09px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  .box-blue {
+      position: absolute;
+    height: 938.27px;
+    width: 713.09px; 
+  }
+
+  .white-op {
+    height: 938.27px;
+    width: 713.09px; 
+    background: url(../picture/Rectangle\ 32.png);
+    position: absolute;
+  }
+
+  .container2 {
+    position: relative;
+  }
+
+.box-orange2 {        
+    background:#F5F5F5;
+    height: 938.27px;
+    width: 713.09px;
+    position: absolute;
+    top: 50px;
+  }
+  .box-blue2 {
+    position: relative;
+    height: 938.27px;
+    width: 713.09px; 
+    left: -50px;
+  }
+
+  .product-present2 {
+    width: 1620px;
+    height: 988px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.slider-product {
+    width: auto;
+    height: 796px;
+    background-color: #222222;
+    margin: 50px 0 0 0;
+}
+
+.product-box {
+
+}
+
+.white-mini-logo {
+    margin: 5px 0 0 150px;
+}
+
+.slider-header-text {
+    font-size: 35px;
+    color: #F5F5F5;
+    margin: 116px 0 0 150px;
+    font-weight: 700;
+}
+
+.slider-text-discription {
+    font-size: 24px;
+    color: #F5F5F5;
+    margin: 20px 0 0 150px;
+    font-weight: 300;
+}
+
+.slider-product button {
+    width: 79px;
+    height: 47px;
+    background-color: #F5F5F5;
 }
