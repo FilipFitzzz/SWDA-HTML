@@ -131,74 +131,102 @@
 
 /* инфо секција END */
 
+/* Product слики START */
+
 .product-present {
     width: 1620px;
-    height: 988px;
+    height: 2020px;
     margin: 0 auto;
     margin-top: 50px;
+    background-color: crimson;
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: stretch;
 }
 
-.container {
-    position: relative;
-  }
-
-.box-orange {        
-    background:#F5F5F5;
-    height: 938.27px;
+.imgbox1 {
     width: 713.09px;
+    height: 938.27px;
+    background-color: #DCDCDC;
     position: absolute;
-    top: 50px;
-    left: 50px;
-  }
-  .box-blue {
-      position: absolute;
-    height: 938.27px;
-    width: 713.09px; 
-  }
-
-  .white-op {
-    height: 938.27px;
-    width: 713.09px; 
-    background: url(../picture/Rectangle\ 32.png);
-    position: absolute;
-  }
-
-  .container2 {
-    position: relative;
-  }
-
-.box-orange2 {        
-    background:#F5F5F5;
-    height: 938.27px;
-    width: 713.09px;
-    position: absolute;
-    top: 50px;
-  }
-  .box-blue2 {
-    position: relative;
-    height: 938.27px;
-    width: 713.09px; 
-    left: -50px;
-  }
-
-  .product-present2 {
-    width: 1620px;
-    height: 988px;
-    margin: 0 auto;
     margin-top: 50px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: stretch;
+    margin-left: 50px;
 }
+
+.imgbox2 {
+    width: 713.09px;
+    height: 938.27px;
+    background: url('../picture/Mask\ Group\ 1.jpg');
+    position: absolute;
+}
+
+.imgbox3 {
+    width: 713.09px;
+    height: 938.27px;
+    background: url('../picture/Rectangle\ 32.png');
+    position: absolute;
+}
+
+.container-text {
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: #222222;
+}
+
+.container-text .like-icon {
+    margin-top: 50px;
+}
+
+.aboutproducttext {
+    margin-top: 635px;
+}
+
+.container-text .supp-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.shopnow-button button {
+    position: absolute;
+    width: 166px;
+    height: 44px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    border: 2px solid #222222;
+    border-radius: 25px;
+    margin-left: 223px;
+    margin-top: 35px;
+}
+
+.shopnow-button button:hover {
+    background-color: #222222;
+    color: #F5F5F5;
+}
+
+.shop-icon img {
+    width: 40px;
+    height: 44px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.like-icon img {
+    width: 40px;
+    height: 44px;
+
+    cursor: pointer;
+}
+
+
+
+/* Product слики END */
+
+/* Slider section START */
 
 .slider-product {
     width: auto;
@@ -207,8 +235,55 @@
     margin: 50px 0 0 0;
 }
 
-.product-box {
+.product-box-items {
+    width: 1217px;
+    height: 600px;
+    margin-top: 50px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
 
+.newtext {
+    width: 66px;
+    height: 24px;
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    float: right;
+    margin: 50px 32px 0 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-main-text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #222222;
+    margin: 32px 0 0 32px;
+}
+
+.product-description-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #222222;
+    margin: 0 0 0 32px;
+}
+
+.imgproduct {
+    margin: 65px 0 0 75px;
+}
+
+.product-item1,
+.product-item2,
+.product-item3 {
+    width: 425.14px;
+    height: 600px;
+    background-color: #A1ACB2;
+}
+
+.product-item3 {
+    width: 347px;
 }
 
 .white-mini-logo {
@@ -229,8 +304,101 @@
     font-weight: 300;
 }
 
+.price-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #222222;
+    margin: 60px 0 0 171px;
+}
+
+.addto-icon {
+    width: 26px;
+    height: 30px;
+    margin: 10px 0 0 32px;
+}
+
+.slider-buttons {
+    display: flex;
+    width: 161px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+
 .slider-product button {
     width: 79px;
     height: 47px;
     background-color: #F5F5F5;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border: 0px;
+    
 }
+
+.slider-product .btn-2 {
+    border-radius: 0 25px 25px 0;
+    padding-right: 10px;
+}
+.slider-product .btn-2 img {
+    padding-right: 10px;
+}
+
+.slider-buttons img {
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+/* Slider section END */
+
+/* Privileges section START */
+
+.privileges-section {
+    width: auto;
+    height: 250px;
+    background-color: #EBEBEB;
+    margin-top: 50px;
+}
+
+.privileges-section-box {
+    width: 1720px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.privileges-header {
+    font-size: 35px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+}
+
+.privileges-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #222222;
+    text-align: center;
+}
+
+.vertical-border-line {
+    width: 2px;
+    height: 126px;
+    background-color: #D5D5D5;
+    
+}
+
+
+
+
+
+
+
+/* Privileges section END */
