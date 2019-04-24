@@ -395,10 +395,50 @@
     
 }
 
-
-
-
-
-
-
 /* Privileges section END */
+
+/* Video Section Start */
+
+.video-container {
+    width: auto;
+    height: 835px;
+    background-color: #222222;
+    margin-top: 50px;
+    position: absolute;
+} 
+
+.video-container .video-section {
+    width: 1920px;
+    height: 680px;
+    margin-top: 75px;
+    background-image: url(../picture/videopic.jpg);
+}
+
+.repeat-button button {
+    width: 137px;
+    height: 137px;
+    background-image: url(../picture/Group\ 47.png);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 41%;
+    left: 47%;
+}
+
+.play-track {
+    width: 1920px;
+    height: 10px;
+    background-color: #F5F5F5;
+    display: block;
+    position: relative;
+}
+
+.play-track .play-track-inside {
+    width: 800px;
+    height: 10px;
+    background-color: #F29F05;
+}
+
+/* Video Section END */
