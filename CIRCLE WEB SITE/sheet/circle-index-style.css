@@ -138,8 +138,9 @@
     height: 2020px;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: crimson;
+    /* background-color: crimson; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .imgbox1 {
@@ -442,3 +443,104 @@
 }
 
 /* Video Section END */
+
+
+/* PRODUCT BOX */
+
+/* .product-box {
+    width: 713px;
+    height: 938px;
+    box-shadow: 50px 50px 0 rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-box .product-top {
+    width: 100%;
+    padding: 40px;
+}
+
+.product-box .product-bottom {
+    flex-grow: 1;
+    display: flex;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 51%, rgba(255,255,255,0.5) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 51%,rgba(255,255,255,0.5) 100%)
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 51%,rgba(255,255,255,0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#80ffffff',GradientType=0 );
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.product-bottom .product-description {
+    width: 100%;
+}
+
+.product-box .product-bottom .product-title h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.product-box .product-bottom .product-title span {
+    font-size: 18px;
+}
+
+.product-box .product-footer {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.product-box .product-footer .cart-btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(../picture/nav-icons/kosnica\ icon.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-box .product-footer a.product-details {
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3px 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.product-box .product-footer .details-box {
+    width: calc(100% - 80px);
+    text-align: center;
+}
+
+.product-box .like-btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(../picture/nav-icons/srce\ icon.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-box.product1 {
+    background-image: url(../picture/Mask\ Group\ 1.jpg);
+}
+
+.product-box.product2 {
+    background-image: url(../picture/videopic.jpg);
+} */
